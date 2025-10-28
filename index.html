@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loja de Joias Elegantes</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Joias Elegantes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Carrossel -->
+    <section id="home" class="carrossel">
+        <div class="carrossel-wrapper">
+            <div class="carrossel-slide">
+                <img src="https://via.placeholder.com/1920x800" alt="Joias Luxuosas">
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://via.placeholder.com/1920x800" alt="Coleção de Anéis">
+            </div>
+            <div class="carrossel-slide">
+                <img src="https://via.placeholder.com/1920x800" alt="Colares Exclusivos">
+            </div>
+        </div>
+        <div class="carrossel-buttons">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Produtos em Destaque</h2>
+        <div class="categorias">
+            <button class="categoria-btn" data-category="ouro">Ouro</button>
+            <button class="categoria-btn" data-category="prata">Prata</button>
+            <button class="categoria-btn" data-category="diamantes">Diamantes</button>
+        </div>
+        <div class="produtos-grid">
+            <div class="produto" data-category="ouro">
+                <img src="https://via.placeholder.com/300" alt="Anel de Ouro">
+                <h3>Anel de Ouro</h3>
+                <p>R$ 1.200,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto" data-category="prata">
+                <img src="https://via.placeholder.com/300" alt="Colar de Prata">
+                <h3>Colar de Prata</h3>
+                <p>R$ 800,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto" data-category="diamantes">
+                <img src="https://via.placeholder.com/300" alt="Brincos de Diamante">
+                <h3>Brincos de Diamante</h3>
+                <p>R$ 2.500,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto" data-category="ouro">
+                <img src="https://via.placeholder.com/300" alt="Pulseira de Ouro">
+                <h3>Pulseira de Ouro</h3>
+                <p>R$ 1.800,00</p>
+                <button>Comprar</button>
+            </div>
+            <div class="produto" data-category="prata">
+                <img src="https://via.placeholder.com/300" alt="Anel de Prata">
+                <h3>Anel de Prata</h3>
+                <p>R$ 600,00</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre nós</h2>
+        <p>Na Joias Elegantes, buscamos oferecer a você peças de joalheria únicas, que representam luxo e sofisticação. Trabalhamos com materiais de altíssima qualidade para garantir a sua satisfação em cada compra.</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Joias Elegantes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
